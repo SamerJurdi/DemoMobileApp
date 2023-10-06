@@ -1,5 +1,5 @@
 import {ScrollView, Text} from 'react-native';
-import React, {useCallback, useEffect, useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import {useFocusEffect} from '@react-navigation/native';
 import {fetchCategoryProducts} from '../API';
 import {ProductCard} from '../components';
